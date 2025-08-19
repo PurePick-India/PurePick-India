@@ -19,7 +19,7 @@ await connectDB();
 await connectCloudinary();
 /* Defines allowed origins for CORS, permitting only http://localhost:5173 (Frontend)*/
 // const allowedOrigins = ['http://localhost:5173'];
-const allowedOrigins = ['https://purepick-frontend.onrender.com'];
+const allowedOrigins = ['https://purepick.onrender.com'];
 
 
 //Middleware Configuration
