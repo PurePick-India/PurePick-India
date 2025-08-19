@@ -7,7 +7,7 @@ import toast from 'react-hot-toast';
 import axios from "axios";
 
 axios.defaults.withCredentials = true; // Allow cookies to be sent with requests
-axios.defaults.baseURL = "https://purepick-backend-47u4.onrender.com" || import.meta.env.VITE_BACKEND_URL?.trim(); // Set the base URL for axios requests
+axios.defaults.baseURL = import.meta.env.VITE_BACKEND_URL; // Set the base URL for axios requests
 
 export const AppContext = createContext();
 
