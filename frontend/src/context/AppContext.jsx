@@ -3,10 +3,8 @@ Purpose: avoid prop drilling, keep a single source of truth, and share data/func
 
 import { createContext, useContext, useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { dummyProducts } from "../assets/assets";
 import toast from 'react-hot-toast';
 import axios from "axios";
-import { use } from "react";
 
 axios.defaults.withCredentials = true; // Allow cookies to be sent with requests
 axios.defaults.baseURL = import.meta.env.VITE_BACKEND_URL; // Set the base URL for axios requests
