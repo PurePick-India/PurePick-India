@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="125" height="91" viewBox="0 0 125 91">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #36a22c;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="PurePick_logo_1" data-name="PurePick_logo 1" class="cls-1" d="M53.685,72S44.521,3.566,124.659,4c0,0,8.539,76.355-60.055,83a15.434,15.434,0,0,0-5.46,0S72.293,42.591,94.632,31C94.632,31,70.207,34.085,53.685,72ZM43.676,76C45.125,73.77,60.134,31.689,0,23,0,23,.777,86.514,43.676,76Z"/>
+</svg>
