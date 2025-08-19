@@ -1,63 +1,81 @@
-# 🛒 Local Vendor Marketplace (Quick Commerce) - Team 6A MERN
+# 🛒 PurePick
 
-A full-stack e-commerce platform supporting multiple user roles, tailored for hyperlocal quick commerce. Developed using the MERN stack to enable seamless quick commerce shopping experiences.
+**PurePick** is a full-stack hyperlocal **quick-commerce platform** built using the **MERN stack**, designed to deliver groceries and snacks within **15–30 minutes**. It supports real-time order management and multiple user roles, offering a seamless and efficient shopping experience tailored for urban needs.
+
+> 🚚 Your groceries. Delivered faster than ever.
+
+---
 
 ## 🚀 Tech Stack
 
-- **Frontend** – React 19  
-- **Backend** – Node.js + Express  
-- **Database** – MongoDB
+| Layer         | Technology         |
+|---------------|--------------------|
+| **Frontend**  | React 19           |
+| **Backend**   | Node.js + Express  |
+| **Database**  | MongoDB Atlas      |
+| **Full Stack**| MERN (MongoDB, Express, React, Node.js) |
 
 ---
 
-## 💻 Team Members
+## 👥 Team PurePick
 
-- **Team 6A (MERN Stack)**:
-  1. Mainak Das
-  2. Aditya Kumar
-  3. Pavan Shirsat
-  4. Chinmay Patole  
-  5. Jay Kinarkar
-
----
-
-## ⚙️ Installation Guide
-
-### 📦 Prerequisites
-
-- Node.js (v22 or higher)
-- Git (v2.46 or higher)
-- MongoDB Atlas
+- Mainak Das  
+- Aditya Kumar  
+- Pavan Shirsat  
+- Chinmay Patole  
+- Jay Kinarkar  
 
 ---
 
-### 🔁 Clone the Repository
+## 📦 Prerequisites
+
+Ensure the following are installed on your machine:
+
+- **Node.js** – v22 or higher  
+- **Git** – v2.46 or higher  
+- **MongoDB Atlas** – Set up a free cluster for cloud-based database
+
+---
+
+## 🔧 Getting Started
+
+### 1. 📁 Clone the Repository
 
 ```bash
-git clone https://cognizant-git.tekstac.com/Mainak.Das2/6a-local-marketplace-mern.git
+git clone https://github.com/PurePick-India/PurePick-India.git
+cd PurePick-India
 ```
-
-```bash
-cd 6a-local-marketplace-mern/
-```
-
 ---
 
-### 🖥️ Frontend Setup
+
+### 2. 🖥️ Frontend Setup
 
 ```bash
 cd frontend
 npm install
 npm run dev
-```
-
+``` 
 ---
 
-### 🛠️ Backend Setup
+### 3. 🛠️ Backend Setup
 
 ```bash
-cd ../backend
+cd backend
 npm install
-npm start
+npm run server
 ```
 ---
+
+## 🗂️ Project Structure
+
+```bash
+PurePick-India/
+├── frontend/         # React app (client-side)
+│   └── ...
+├── backend/          # Express app (server-side)
+│   └── ...
+├── README.md         # Project documentation
+└── .gitignore
+```
+
+
